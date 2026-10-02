@@ -1,5 +1,8 @@
 # Ternary Causal Kernel
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roshan8005/TernaryCausalKernel)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2610.XXXXX)
+
 A standalone reference implementation of **Multi-Valued Paraconsistent Epistemic Logic** to eliminate LLM hallucinations by integrating **Kleene's Strong Three-Valued Logic ($K_3$)** and **Judea Pearl’s do-calculus**.
 
 ## Overview
