@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ternary-causal-kernel"
+version = "0.1.0"
+description = "A Multi-Valued Paraconsistent Epistemic Logic Framework to eliminate LLM hallucinations using Judea Pearl's do-calculus and Kleene's Strong Three-Valued Logic."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Roshan Kumar Sah" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
